@@ -1,0 +1,106 @@
+.dark {
+    background-color: $background-dark;
+    // toolbar preference user
+    .preference-user {
+        height: 100vh;
+        width: 10vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        .preference-user-day {
+            padding: 10% 0 40% 0;
+            width: 8vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .nav ul {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+            }
+            button {
+                width: 90px;
+                height: 46px;
+                border: 1px solid #333;
+                padding: 0.5rem;
+                background: #333;
+                border-radius: 34px;
+                -webkit-transition: background 200ms ease;
+                transition: background 200ms ease;
+                color: #eaeaea;
+            }
+            .dark-button i {
+                float: left;
+                height: 20px;
+                width: 20px;
+                margin-left: auto;
+                background-color: black;
+                padding: 5px;
+                border-radius: 50%;
+            }
+            .dark-button {
+                background-color: white;
+                border: 1px solid white;
+            }
+            .light-button i {
+                float: right;
+                width: 20px;
+                height: 20px;
+                margin-left: 0.3rem;
+                background-color: red;
+                padding: 5px;
+                border-radius: 50%;
+            }
+        }
+        .menu-watcher {
+            padding: 10% 0 40% 0;
+            width: 6vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            a {
+                margin: 6px 0 0 0;
+                color: white;
+                text-decoration: none;
+            }
+        }
+        .preference-user-color {
+            padding: 10% 0 40% 0;
+            width: 6vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            p {
+                width: 100%;
+                text-align: center;
+            }
+            div {
+                width: 25px;
+                height: 25px;
+                border-radius: 15px;
+                cursor: pointer;
+                margin-bottom: 5px;
+            }
+            .purple-button {
+                background-color: #b17acd;
+                margin: 2px;
+            }
+            .red-button {
+                background-color: #e79b8b;
+                margin: 2px;
+            }
+            .blue-button {
+                background-color: #8bb5e7;
+                margin: 2px;
+            }
+            .green-button {
+                background-color: #7acca6;
+                margin: 2px;
+            }
+        }
+    }
+}

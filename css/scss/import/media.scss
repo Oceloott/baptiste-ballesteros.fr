@@ -1,0 +1,548 @@
+@media (max-width: 1200px) {
+    body {
+        header{
+            display: none;
+        }
+        main {
+            .indicator-early{
+                height: 20vh;
+            }
+            .phone_picker{
+                display: flex;
+            }
+            .hello {
+                .hi {
+                    font-size: 3.2rem;
+                }
+                .name-hello{
+                    font-size: 1.8rem;
+                    span{
+                        font-size: 1.8rem;
+                    }
+                }
+                .dev{
+                    font-size: 1.8rem;
+                }
+            }
+            
+            .about{
+                .fade-in-about{
+                    h3{
+                        font-size:2.6rem ;
+                    }
+                }
+                .aboutt{
+                    .svg-left{
+                        width: 100%;
+                        p{
+                            font-size: 1.6rem;
+                        }
+                    }
+                    .svg-right{
+                        display: none;
+                    }
+                }
+                .passions{
+                    h3{
+                        margin-left: 0;
+                    }
+                    .passions_all{
+                        flex-direction: column;
+                        .anime{
+                            width: 100%;
+                        }
+                        .music{
+                            text-align: left;
+                            width: 100%;
+                            .video-music{
+                                img{
+                                    width:50% ;
+                                }
+                            }
+                        }
+                    }
+                }
+                .skills{
+                    .design{
+                        .left_design{
+                            width: 50%;
+                            p{
+                                width: 75%;
+                            }
+                        }
+                        .right_design{
+                            width: 50%;
+                            p{
+                                width: 75%;
+                            }
+
+                        }
+                    }
+                }
+                .work{
+                    .projet_work{
+                        .memoire{
+                            .left_memoire{
+                                img{
+                                    width: 95%;
+                                }
+                            }
+                            .right_memoire{
+                                .dedi_work{
+                                    font-size: 1.2rem;
+                                }
+                                .tech_work{
+                                    font-size: 0.9rem;
+                                }
+                                .undertitle_work{
+                                    font-size: 1rem;
+                                }
+                                .btn_work{
+                                    font-size: 1rem;
+                                    margin-top: 2%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 992px) {
+    body {
+        header{
+            display: none;
+        }
+        main {
+            .indicator-early{
+                display: none;
+            }
+            .phone_picker{
+                height: 35vh;
+                align-items: unset;
+                margin-top: 5vh;
+            }
+            .hello {
+                .hi {
+                    font-size: 2.8rem;
+                }
+                .name-hello{
+                    font-size: 1.8rem;
+                    span{
+                        font-size: 1.8rem;
+                    }
+                }
+                .dev{
+                    font-size: 1.8rem;
+                }
+            }
+            
+            .about{
+                .fade-in-about{
+                    h3{
+                        font-size:2.6rem ;
+                    }
+                }
+                .aboutt{
+                    .svg-left{
+                        width: 100%;
+                        p{
+                            font-size: 1.3rem;
+                        }
+                    }
+                    .svg-right{
+                        display: none;
+                    }
+                }
+                .passions{
+                    h3{
+                        margin-left: 0;
+                        font-size: 1.9rem;
+                    }
+                    .passions_all{
+                        flex-direction: column;
+                        .anime{
+                            width: 100%;
+                            .video-anime{
+                                .car{
+                                    width:55% ;
+                                }
+                                .elan{
+                                    width: 55%;
+                                }
+                            }
+                        }
+                        .music{
+                            text-align: left;
+                            width: 100%;
+                            
+                            .video-music{
+                                img{
+                                    width:50% ;
+                                }
+                            }
+                        }
+                    }
+                }
+                .skills{
+                    .title_skills {
+                        h4{
+                            margin-left: 0px;
+                        }
+                        h3{
+                            font-size: 2.8rem;
+                        }
+                    }
+                    .design{
+                        .left_design{
+                            width: 50%;
+                            p{
+                                width: 75%;
+                                font-size: 1rem;
+                            }
+                        }
+                        .right_design{
+                            width: 50%;
+                            p{
+                                width: 75%;
+                                font-size: 1rem;
+
+                            }
+
+                        }
+                    }
+                    .developpement {
+                        p{
+                            font-size: 1rem;
+                            line-height: 1.7rem;
+
+                        }
+                        
+                    }
+                }
+                .work{
+                    h3{
+                        font-size: 2.8rem;
+                    }
+                    .work_mmi{
+                        flex-direction: column;
+                        .left_work_mmi{
+                            margin-left: auto;
+                            margin-right: auto;
+                            width: 50%;
+                            margin-bottom: 40px;
+                        }
+                        .right_work_mmi{
+                            margin-left: auto;
+                            margin-right: auto;
+                            width: 50%;
+                        }
+                    }
+                    .projet_work{
+                        .title_work{
+                            margin-top: 10%;
+                        }
+                        .memoire{
+                            flex-direction: column;
+                            .left_memoire{
+                                width: 100%;
+                                img{
+                                    width: 65%;
+                                    margin-left: 4%;
+                                }
+                                
+                            }
+                            .right_memoire{
+                                width: 100%;
+                                p{
+                                    margin-left: 4%;
+
+                                }
+                            }
+                            .right_memoire{
+                                .dedi_work{
+                                    font-size: 1.2rem;
+                                    margin-top: 2%;
+                                }
+                                .tech_work{
+                                    font-size: 0.9rem;
+                                }
+                                .undertitle_work{
+                                    font-size: 1rem;
+                                }
+                                .btn_work{
+                                    font-size: 1rem;
+                                    margin-top: 2%;
+                                }
+                            }
+                        }
+                    }
+                }
+                .contact{
+                    .title_contact{
+                        font-size: 2.8rem;
+                    }
+                    .mail {
+                        margin: 5% 0;
+                    }
+                    .reseau{
+                        width: 50%;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 776px) {
+    body {
+        header{
+            display: none;
+        }
+        main {
+            .hello {
+                .hi {
+                    font-size: 2rem;
+                }
+                .name-hello{
+                    font-size: 1.4rem;
+                    span{
+                        font-size: 1.4rem;
+                    }
+                }
+                .dev{
+                    font-size: 1.4rem;
+                }
+            }
+            
+            .about{
+                .fade-in-about{
+                    h3{
+                        font-size:2.4rem ;
+                    }
+                }
+                .aboutt{
+                    .svg-left{
+                        width: 100%;
+                        p{
+                            font-size: 1.1rem;
+                        }
+                    }
+                    .svg-right{
+                        display: none;
+                    }
+                }
+                .passions{
+                    h3{
+
+                    width: 100%;
+                        margin-right: 0;
+                        font-size: 1.9rem;
+                    }
+                    .passions_all{
+                        flex-direction: column;
+                        .anime{
+                            width: 100%;
+                            .video-anime{
+                                .car{
+                                    width:85% ;
+                                }
+                                .elan{
+                                    width: 85%;
+                                }
+                            }
+                        }
+                        .music{
+                            text-align: left;
+                            width: 100%;
+                            
+                            .video-music{
+                                img{
+                                    width:85% ;
+                                }
+                            }
+                        }
+                    }
+                }
+                .skills{
+                    .title_skills  {
+                        width: 100%;
+
+                        
+                            font-size: 2.8rem;
+                            h4{
+                                margin-bottom: 8%;
+                                margin-left: 0px;
+                        
+                            }
+                        
+                    }
+                    .design{
+                        flex-direction: column;
+                        .left_design{
+                            flex-direction: row;
+                            width: 100%;
+                            margin-bottom: 10%;
+                            p{
+                                width: 75%;
+                                font-size: 0.9rem;
+                                line-height: 1.3rem;
+                                margin-top: auto;
+                                margin-bottom: auto;
+
+                            }
+                        }
+                        .right_design{
+                            width: 100%;
+                            flex-direction: row;
+
+                            p{
+                                width: 75%;
+                                font-size: 0.9rem;
+                                line-height: 1.3rem;
+                                margin-top: auto;
+                                margin-bottom: auto;
+
+                            }
+
+                        }
+                    }
+                    .developpement {
+                        flex-direction: column;
+                        
+                        .one_dev{
+                            width: 100%;
+                            flex-direction: row;
+                            margin-bottom: 10%;
+                            .entoure{
+                                width: 25%;
+                            }
+                            h2{
+                                font-size: 0.9rem;
+
+                            }
+                        }
+                        .two_dev{
+                            width: 100%;
+                            flex-direction: row;
+                            margin-bottom: 10%;
+                            .entoure{
+                                width: 25%;
+                            }
+                            h2{
+                                font-size: 0.9rem;
+
+                            }
+
+                        }
+                        .three_dev{
+                            width: 100%;
+                            flex-direction: row;
+                            .entoure{
+                                width: 25%;
+                            }
+                            h2{
+                                font-size: 0.9rem;
+
+                            }
+                        }
+                        p{
+                            width: 75%;
+                                font-size: 0.9rem;
+                                line-height: 1.3rem;
+                                margin-top: auto;
+                                margin-bottom: auto;
+
+                        }
+                        
+                    }
+                }
+                .work{
+                    h3{
+                        font-size: 2.4rem;
+                    }
+                    .found{
+                        font-size: 1.1rem;
+                    }
+                    .work_mmi{
+                        flex-direction: column;
+                        
+                        .left_work_mmi{
+                            margin-left: auto;
+                            margin-right: auto;
+                            width: 75%;
+                            margin-bottom: 40px;
+                            h4{
+                                font-size: 1rem;
+                            }
+                            
+                        }
+                        .right_work_mmi{
+                            margin-left: auto;
+                            margin-right: auto;
+                            width: 75%;
+                            h4{
+                                font-size: 1rem;
+                            }
+                        }
+                    }
+                    .projet_work{
+                        .title_work{
+                            margin-top: 10%;
+                            font-size: 1.6rem;
+                        }
+                        .memoire{
+                            flex-direction: column;
+                            .left_memoire{
+                                width: 100%;
+                                img{
+                                    width: 80%;
+                                    margin-left: 4%;
+                                }
+                                
+                            }
+                            .right_memoire{
+                                width: 100%;
+                                p{
+                                    margin-left: 4%;
+
+                                }
+                            }
+                            .right_memoire{
+                                .dedi_work{
+                                    font-size: 1.1rem;
+                                    line-height: 1.2rem;
+                                }
+                                .tech_work{
+                                    font-size: 0.9rem;
+                                    line-height: 1rem;
+                                    margin-top: 4%;
+                                }
+                                .undertitle_work{
+                                    font-size: 1rem;
+                                    line-height: 1.2rem;
+                                    margin-top: 5%;
+                                }
+                                .btn_work{
+                                    font-size: 1rem;
+                                    margin-top: 2%;
+                                }
+                            }
+                        }
+                    }
+                }
+                .contact{
+                    .title_contact{
+                        font-size: 2.4rem;
+                    }
+                    .mail {
+                        margin: 5% 0;
+                    }
+                    .reseau{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
